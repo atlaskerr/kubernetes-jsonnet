@@ -6,5 +6,9 @@
     setArgs(args):: self {
       args: std.split(args, ' '),
     },
+
+    setCommand(cmd):: self {
+      command: std.split(cmd, ' '),
+    },
   },
 }
