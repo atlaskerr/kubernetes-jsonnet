@@ -1,3 +1,3 @@
 {
-  container: import 'container.libsonnet',
+  container: import 'core/container.libsonnet',
 }
